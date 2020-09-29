@@ -1,0 +1,109 @@
+body{
+    margin: 0px;
+    font-family: cursive;
+    background-image: url("images/corkboard.jpg");
+}
+header{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    background-image: url("images/chalkboard.jpg");
+    border-bottom: 15px solid red;
+    z-index: 1;
+}
+h1{
+    margin: 0px;
+    padding: 1rem;
+    display: inline-block;
+    color: yellow;
+    font-size: 5rem;
+}
+nav{
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 2rem;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    margin: 0rem 2rem;
+    font-size: 2rem;
+    border-bottom: 10px dashed white;
+}
+nav a:hover{
+    color: yellow;
+    border-bottom: 10px dashed yellow;
+}
+header div{
+    position: Relative;
+}
+img{
+    width: 15rem;
+}
+main{
+    width: 60rem;
+    margin: 1rem auto;
+    margin-top: 15rem;
+}
+.note{
+    background-color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: .5rem;
+    margin: 1rem auto;
+    width: 10rem;
+    position: relative;
+    transform:rotate(5deg);
+    box-shadow: -5px 5px 4px rgba(10, 10, 10, .65);
+}
+.polaroid{
+    background-color: white;
+    padding: .5rem .5rem 0rem .5rem;
+    display: inline-block;
+    position: relative;
+    margin: 0rem 1.5rem;
+    box-shadow: -5px 5px 4px rgba(10, 10, 10, .65);
+}
+.pin{
+    width: 3rem;
+    position: absolute;
+    left: 6rem;
+}
+h4{
+    text-align: center;
+    color: red;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    margin: 0px;
+}
+.dog{
+    transform:rotate(3deg);
+}
+.elephant{
+    transform:rotate(-3deg);
+}
+.owl{
+    transform:rotate(3deg);
+}
+.paper{
+    background-image: url("images/paper.jpg");
+    background-size: 100%;
+    box-shadow: -5px 5px 4px rgba(10, 10, 10, .65);
+    position: relative;
+    padding: 2rem;
+    margin: 2rem 0rem;
+}
+.paper .pin{
+    left: 28rem;
+    top: 1rem;
+}
+.anchor{
+    position: relative;
+    top: -15rem;
+    display: block;
+}

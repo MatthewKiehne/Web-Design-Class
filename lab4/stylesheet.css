@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+    color: grey;
+    font-family: sans-serif;
+}
+
+header, main{
+    background-color: white;
+    padding: 1rem;
+    margin: 1rem;
+}
+h1,h2,h3,h4,h5,h6, p{
+    color:black;
+    background-color:yellow;
+}
+nav{
+    background-color:black;
+    padding:1rem;
+}
+a {
+    background-color:white;
+}
+ol,ul{
+    background-color: black;
+    padding:1rem;
+}
+li{
+    background-color: yellow;
+    color:black;
+    padding:1rem;
+    margin:.5rem;
+}
+div{
+    background-color: black;
+    padding: 1rem;
+}
+span{
+    background-color: yellow;
+    color:black;
+    margin:1rem;
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+#rainbow{
+    background-image: linear-gradient( red,orange,yellow,green,blue,indigo,violet);
+}

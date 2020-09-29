@@ -1,0 +1,56 @@
+h1 {
+    color:rgb(98, 0, 255);
+    text-align: center;
+    outline: 5px double green;
+    font-size: 3rem;
+}
+ol {
+    list-style-type: none;
+}
+ul li {
+    text-align: left;
+    font-weight: 500;
+}
+img{
+    width: 5rem;
+    height: 5rem;
+}
+ol li { 
+    margin: -4px; 
+    text-align: center;
+}
+header{
+    outline: 5px ridge green;
+    padding: 0rem;
+}
+body{
+    text-align: center;
+    background-color: #808080;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-weight: 100;
+}
+main {
+    background-color: #808081;
+    text-align: center;
+}
+nav{
+    margin-bottom: 1rem;
+    color: cyan;
+}
+header a {
+    margin: 3rem;
+    background-color: aliceblue;
+}
+h1, h2, h3{
+    color:red;
+    background-color: yellow;
+}
+p{
+    background-color: royalblue;
+    color: white;
+}
+blockquote{
+    color: gold;
+    background-color: rosybrown;
+}
